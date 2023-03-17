@@ -1,6 +1,7 @@
 {
   "name": "my_project2",
   "version": "0.1.0",
+  "homepage": "https://invincibleRD.github.io/News-APP",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,6 +18,8 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
@@ -43,6 +46,7 @@
     "assert": "^2.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
+    "gh-pages": "^5.0.0",
     "https-browserify": "^1.0.0",
     "os-browserify": "^0.3.0",
     "process": "^0.11.10",
