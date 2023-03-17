@@ -1,7 +1,7 @@
 {
   "name": "my_project2",
   "version": "0.1.0",
-  "homepage": "https://invincibleRD.github.io/News-APP",
+  "homepage": "https://invincibleRD.github.io/my_project2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
